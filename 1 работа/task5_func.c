@@ -3,5 +3,5 @@
 
 double f(double x, double y)
 {
-    return ((sqrt(x)-sqrt(y))/x);
+    return (sqrt(x)-sqrt(y))/x;
 }

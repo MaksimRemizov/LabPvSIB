@@ -7,5 +7,5 @@ double result;
 
 void f(void)
 {
-    result = ((sqrt(x)-sqrt(y))/x);
+    result = (sqrt(x)-sqrt(y))/x;
 }
