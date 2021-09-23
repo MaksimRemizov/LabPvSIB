@@ -1,8 +1,8 @@
 #include "stdio.h"
-#include "stdlib.h"
+#include <stdlib.h>
 #include <math.h>
 
-void main()
+void main(void)
 {
 double x = 16;
 double y = 4;
@@ -22,5 +22,4 @@ printf("y = %f\n", y);
 f = ((sqrt(x)-sqrt(y))/x);
 printf("f1 = %5.4f\n",f);
 system("pause");
-return;
 }

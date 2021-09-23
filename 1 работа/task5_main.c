@@ -1,5 +1,5 @@
 #include "stdio.h"
-#include "stdlib.h"
+#include <stdlib.h>
 
 extern double f(double x, double y);
 void main(void)
@@ -21,5 +21,4 @@ printf("y = %f\n", y);
 
 printf("f1 = %5.4f\n",f(x,y));
 system("pause");
-return;
 }

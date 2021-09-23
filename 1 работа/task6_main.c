@@ -1,6 +1,5 @@
 #include "stdio.h"
-#include "stdlib.h"
-#include <math.h>
+#include <stdlib.h>
 
 void f(void);
 
@@ -8,7 +7,7 @@ double x;
 double y;
 double result;
 
-void main()
+void main(void)
 {
 printf ("x = %f\n",x);
 printf ("x = %f\n",y);
@@ -23,5 +22,4 @@ printf("x = %f\n", x);
 printf("y = %f\n", y);
 printf("f1 = %5.4f\n",result);
 system("pause");
-return;
 }
