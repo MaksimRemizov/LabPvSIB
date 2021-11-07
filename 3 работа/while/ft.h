@@ -1,4 +1,4 @@
-#ifndef FT_H
+# ifndef FT_H
 # define FT_H
 
 #include <stdio.h>
