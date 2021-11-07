@@ -27,6 +27,8 @@ int main(void)
         printf("f = %.4lf\n\n", result);
         break;
     }
+
+
     case '5':
     {
         printf("Task 5:\n ");
@@ -48,5 +50,4 @@ int main(void)
     }
     } 
     system("pause");
-    return 0;
 }

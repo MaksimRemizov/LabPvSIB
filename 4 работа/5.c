@@ -3,7 +3,7 @@
 
 void sortStackArray(int *arr, int n)
 {
-    n = 5;
+    n = 3;
     readArray(arr,n);
     printf("%i", n);
     printf("\n");
