@@ -18,7 +18,7 @@ int main(void)
     case '1':
     {
         printf("Task 1:\n ");
-        double x, result;
+        double x, y, result;
         printf("x = ");
         scanf("%lf", &x);
         printf("y = ");

@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "func.h"
 
 void sortStackArray(int *arr, int n)
 {
