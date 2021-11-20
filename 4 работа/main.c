@@ -17,24 +17,24 @@ int main(void)
     {
     case '1':
     {
-        printf("Task 1:\n ");
-        double x, y, result;
-        printf("x = ");
+    double x,y,result;
+    
+        printf("\nx = ");
         scanf("%lf", &x);
-        printf("y = ");
+        printf("\ny = ");
         scanf("%lf", &y);
         f(&x,&y,&result);
         printf("f = %.4lf\n\n", result);
         break;
     }
-
-
+    
     case '5':
     {
         printf("Task 5:\n ");
-        int n;
-        int arr[n];
-        sortStackArray(arr,n);
+         int n;
+         n = 5;
+         int arr[n]; 
+         sortStackArray(arr,n);
         break;
     }
     case '6':
