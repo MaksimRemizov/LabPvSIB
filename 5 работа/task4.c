@@ -1,6 +1,6 @@
 
 #include <memory.h>
-void strcpy(char *dest, int len, const char* src )
+void strcpy1(char *dest, int len, const char* src )
 {
 	if (len <=0)
 		return;

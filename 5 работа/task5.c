@@ -1,10 +1,10 @@
 
 #include "func.h" 
-void strcat(char *dest, int len, const char *first, const char *second)
+void strcat1(char *dest, int len, const char *first, const char *second)
 {
-	strcpy(dest, len, first);
-	unsigned firstLen =  strlen(first);
-	strcpy(dest + firstLen, len - firstLen, second);
+	strcpy1(dest, len, first);
+	unsigned firstLen =  strlen1(first);
+	strcpy1(dest + firstLen, len - firstLen, second);
 }
 
 

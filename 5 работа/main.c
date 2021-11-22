@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <math.h> 
 #include <conio.h> 
 #include <stdlib.h> 
@@ -141,7 +141,6 @@ int main(void)
 	}
 	} 
 	system("pause");
-	return 0;
 }
 
 
